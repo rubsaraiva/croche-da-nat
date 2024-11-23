@@ -1,0 +1,21 @@
+{
+    "name": "rubens/croche-da-nat",
+    "description": "Projeto de Blog desenvolvido durante o curso Técnico em Informática",
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app/"
+        },
+        "files": [
+            "app/config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Rubens",
+            "email": "rubens.saraiva.filho@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.15"
+    }
+}
